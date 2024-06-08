@@ -63,7 +63,7 @@ rightElems.forEach(function(elem) {
 });
 }
 
-// navAnimation()
+navAnimation()
 
-// page2Animation()
+page2Animation()
 

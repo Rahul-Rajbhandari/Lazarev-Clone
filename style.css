@@ -61,38 +61,6 @@ nav{
     border-bottom: 1px solid #fff;
 }
 
-/* nav:hover #nav-bottom{
-    height: 150%;
-    bottom: -150%;
-    background-color: #111;
-}
-#nav-bottom{
-    height: 0%;
-    width: 80%;
-    position: absolute;
-    bottom: 0%;
-    border-bottom: 1px solid #dadada;
-    transition: all ease 0.6s;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 2vw 15vw;
-    padding-left: 17vw;
-    padding-top: 3vw;
-}
-.bottom-div{
-    margin: 1vw;
-}
-.bottom-div h5{
-    overflow: hidden;
-    margin-bottom: 0.4vw;
-}
-.bottom-div h5 span{
-    font-weight: 500;
-    font-size: 0.75vw;
-    display: inline-block;
-    opacity: 0;
-} */
 
 nav button{
     background-color: #0DA34E;
@@ -123,6 +91,10 @@ nav button svg{
     text-transform: uppercase;
     font-weight: 900;
     line-height: 8.5vw;
+}
+#page1 h1::selection{
+    background-color: white;
+    color:#111
 }
 #page1 h1 svg{
     height: 6vw;
@@ -186,8 +158,8 @@ nav button svg{
 #blur-left{
     height: 100%;
     width: 20%;
-    position: absolute;
     background: linear-gradient(to left, transparent , #111);
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
@@ -259,4 +231,17 @@ nav button svg{
     object-fit:cover;position: absolute;
     opacity: 0;
     scale: 0;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-image: url("page3.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page3-center{
+    background-color: red;
 }
